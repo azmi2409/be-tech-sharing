@@ -1,0 +1,21 @@
+{
+  "name": "be-tech-sharing",
+  "version": "1.0.0",
+  "description": "Be for Embreo tech sharing session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Azmi",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^4.8.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
