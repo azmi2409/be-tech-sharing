@@ -6,7 +6,7 @@ const cors = require('cors');
 const port = process.env.PORT || 3001;
 const messageRoutes = require('./routes');
 
-app.use(cors());
+app.use(cors('*'));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
